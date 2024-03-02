@@ -1,0 +1,38 @@
+/* Name : Ali Mohammad Jobaer
+Student ID : 103835483 */
+
+
+/* 
+   Base styles for the body element: 
+   Removes default margin and padding and sets a fixed height.
+*/
+body {
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+/* 
+   Basic styles for the main application container:
+   Sets the text alignment to the left.
+*/
+.App {
+    text-align: left;
+}
+/* 
+   Footer styles:
+   - Light background with a solid border on top.
+   - Positioned statically and spans the entire width of its container.
+*/
+
+.footer {
+    background-color: #F9F9F9; 
+    border-top: 2px solid rgb(0, 0, 0);
+    position: static; 
+    width: 100%;
+    bottom: 0;
+    color: #444444; 
+    font-size: 1.2rem; 
+    text-align: center; 
+    padding: 20px 0; 
+    font-weight: 500;
+}
